@@ -7,7 +7,7 @@ const Post = ({post}) => {
         <div className='userStyle'>
             <h3>Post of is: {id}</h3>
             <p>{title}</p>
-            <Link to={`/post/${id}`}>Post Detail</Link>
+            <Link to={`/post/${id}`}> <button>Post Detail</button></Link>
         </div>
     );
 };
